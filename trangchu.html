@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="Viewport" content="width = device-width, initial-scale = 1">
+        <title>trang chủ</title>
+        <link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap.css">
+        <link rel="stylesheet" href="Boostrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.4/css/all.css">
+        <script src="../Boostrap/js/jquery.min.js"></script>
+        <script src="Boostrap/js/popper.min.js"></script>
+        <link rel="stylesheet" href="../css/style.css">
+        <script src="Boostrap/js/bootstrap.min.js"></script>
+        <script>   
+            $('#slide').carousel({ 
+                interval:   4000
+            });
+        </script>
+        <style>
+          .dropdown-menu
+          {
+              text-decoration: aqua;
+          }
+        </style>
+        
+    </head>
+    <body>
+       
+        <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+            <div class="container-fluid">
+                <a class="navbar-branch" href="#">
+                    <img src="../anh/anh01.png" height="50">
+                </a>
+                <a class="navbar-branch" href="#">
+
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarReponsive">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Trang chủ</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Giới thiệu</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Tin tức</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Bảo Hành</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Liên hệ</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav ml-auto">
+                        <li><img src="../anh/login.png" width="40" height="40"></li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Đăng nhập</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav ml-auto">
+                        <li><img src="../anh/gio.png" height="40"></li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Giỏ hàng</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav ml-auto">
+
+                            <form class="form-inline">
+                                <div class="form-group">
+
+                                    <input class="form-control" placeholder="Search">
+                                  </div>
+                            </form>
+
+                        <li class="nav-item">
+                            <img src="../anh/search.png" width="35px" id="anh"> <link href="#anh">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div>
+
+        </div>
+        <!--carousel-->
+        <div id="slide" class="carousel slide" data-ride="carousel">
+
+            <!-- Indicators -->
+            <ul class="carousel-indicators">
+              <li data-target="#slide" data-slide-to="0"class="active" ></li>
+              <li data-target="#slide" data-slide-to="1"></li> 
+              <li data-target="#slide" data-slide-to="2"></li>  
+              <li data-target="#slide" data-slide-to="3"></li>
+            </ul>
+
+            <!-- The slideshow -->
+            <div class="carousel-inner">
+              <div class="carousel-item   active   ">
+                <img src="../anh/01.png" alt="Slide1">
+              </div>
+              <div class="carousel-item ">
+                <img src="../anh/02.jpg" alt="Slide2">
+              </div>
+              <div class="carousel-item">
+                <img src="../anh/03.png" alt="Slide3">
+              </div>
+              <div class="carousel-item">
+                <img src="../anh/04.jpg" alt="Slide4">
+              </div>
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev" role='button' href="#slide" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class='sr-only'>Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#slide" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+        <!-- menu -->
+        <div class="menu1">
+            <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+                <div class="container-fluid">
+                    <div class="collapse navbar-collapse" id="navbarResponsive">
+                        <div class="dropdown">
+                            <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown">
+                              Máy ảnh
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Canon</a></li>
+                                <li><a href="#">Sony></li>
+                                <li><a href="#">Canon</a></li>
+                                <li><a href="#">Canon</a></li>
+                                <li><a href="#">Canon</a></li>
+                            </ul>
+                          </div>
+                        
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link btn-danger" href="#">Máy quay</a>
+                            </li>
+                        </ul>
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link btn-danger" href="#">Ống kính</a>
+                            </li>
+                        </ul>
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link btn-danger" href="#">Âm thanh</a>
+                            </li>
+                        </ul>
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link btn-danger" href="#">Phụ Kiện</a>
+                            </li>
+                        </ul>
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link btn-danger" href="#">Đồ công nghệ khác</a>
+                            </li>
+                        </ul>
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link btn-danger" href="#">Khuyến  mãi</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div>
+        </div>
+    </body>
+</html>

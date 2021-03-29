@@ -1,0 +1,84 @@
+<h2 align="center">Hướng dẫn tạo Box sản phẩm bằng Bootstrap</h2>
+<div class="container"> 
+ <div class="row products"> 
+  <div class="col-md-4"> 
+   <div> <img src="http://hocwebgiare.com/thiet_ke_web_chuan_demo/product_display_5/images/174.jpg" alt="Sản phẩm 1" class="img-circle img-thumbnail"> 
+    <h2>Sản phẩm 1</h2> 
+    <dl class="dl-horizontal"> 
+     <dt>Giá:</dt> 
+     <dd> 500.000 đ</dd> 
+     <dt>Bảo hành:</dt> 
+     <dd> 12 tháng</dd> 
+     <dt>Tình trạng:</dt> 
+     <dd> Còn hàng</dd> 
+     <dt>Hãng sản xuất: </dt> 
+     <dd>Japan</dd> 
+    </dl> <a href="http://hocwebgiare.com/" class="btn btn-primary" title="Chi tiết">Chi tiết »</a> 
+   </div> 
+  </div> 
+  <div class="col-md-4"> 
+   <div> <img src="http://hocwebgiare.com/thiet_ke_web_chuan_demo/product_display_5/images/178.jpg" alt="Sản phẩm 2" class="img-circle img-thumbnail"> 
+    <h2>Sản phẩm 2</h2> 
+    <dl class="dl-horizontal"> 
+     <dt>Giá:</dt> 
+     <dd> 600.000 đ</dd> 
+     <dt>Bảo hành:</dt> 
+     <dd> 12 tháng</dd> 
+     <dt>Tình trạng:</dt> 
+     <dd> Còn hàng</dd> 
+     <dt>Hãng sản xuất: </dt> 
+     <dd>Japan</dd> 
+    </dl> <a href="http://hocwebgiare.com/" class="btn btn-primary" title="Chi tiết">Chi tiết »</a> 
+   </div> 
+  </div> 
+  <div class="col-md-4"> 
+   <div> <img src="http://hocwebgiare.com/thiet_ke_web_chuan_demo/product_display_5/images/140.jpg" alt="Sản phẩm 3" class="img-circle img-thumbnail"> 
+    <h2>Sản phẩm 3</h2> 
+    <dl class="dl-horizontal"> 
+     <dt>Giá:</dt> 
+     <dd> 700.000 đ</dd> 
+     <dt>Bảo hành:</dt> 
+     <dd> 12 tháng</dd> 
+     <dt>Tình trạng:</dt> 
+     <dd> Còn hàng</dd> 
+     <dt>Hãng sản xuất: </dt> 
+     <dd>Japan</dd> 
+    </dl> <a href="http://hocwebgiare.com/" class="btn btn-primary" title="Chi tiết">Chi tiết »</a> 
+   </div> 
+  </div> 
+ </div>
+</div> 
+<!-- định dạng css -->
+.products { 
+    padding: 20px 0;    
+    text-align: center;
+    }
+     
+    .products &gt; div &gt; div {   
+    padding: 10px;  
+    border: 1px solid transparent;  
+    border-radius: 4px; 
+    transition: 0.2s;
+    }
+     
+    .products &gt; div:hover &gt; div { 
+    margin-top: -10px;  
+    border: 1px solid rgb(200, 200, 200);   
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 5px 2px; 
+    background: rgba(200, 200, 200, 0.1);   
+    transition: 0.5s;
+    }
+     
+    .dl-horizontal dt { 
+    float: left;    
+    width: 120px;   
+    overflow: hidden;   
+    clear: left;    
+    text-align: right;  
+    text-overflow: ellipsis;    
+    white-space: nowrap;
+    }
+    .dl-horizontal dd { 
+    margin-left: 140px; 
+    text-align:left;
+    }
